@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="OLYCKSASSISTENTEN"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_marginBottom="25dp"
+            android:textSize="30dp"
+            android:typeface="serif"
+            android:shadowColor="#99b4d1ff" />
+        <TextView
+            android:text="Beskrivning av olyckan :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="230.5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:typeface="serif" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="377.0dp"
+            android:background="@drawable/my_border"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="362.5dp"
+                android:background="#50FFFFFF">
+                <EditText
+                    android:inputType="textMultiLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="373.5dp"
+                    android:id="@+id/editTextDescAccident"
+                    android:textColor="#000000"
+                    android:gravity="top" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+            <TextView
+                android:text="Var vänlig och fyll i beskrivning"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="231.0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewFelFyllIBesk"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#7F0000"
+                android:visibility="invisible"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </LinearLayout>
+        <Button
+            android:text="Nästa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonDescAccidentOk"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:background="#007BFF"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
+            android:clickable="false" />
+    </LinearLayout>
+</ScrollView>

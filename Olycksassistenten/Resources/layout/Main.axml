@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/krock2"
+        android:foregroundTint="#b4b4b4ff">
+        <TextView
+            android:text="OLYCKSASSISTENTEN"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="25dp"
+            android:typeface="serif" />
+        <TextView
+            android:text="Hej och välkommen till olycksassistenten. Här kan du göra skadeanmälningar för din bil direkt i mobilen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:background="#10FFFFFF" />
+        <TextView
+            android:text="Användarnamn :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="303.5dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginBottom="5dp"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:background="#20FFFFFF" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="35px"
+            android:layout_width="315.0dp"
+            android:layout_height="36.0dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/my_border2">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editStartUserName"
+                android:background="#FFFFFF"
+                android:textColor="#000000" />
+        </LinearLayout>
+        <TextView
+            android:text="Lösenord :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="304.5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp"
+            android:background="#20FFFFFF" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="315dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/my_border2"
+            android:layout_marginBottom="5dp">
+            <EditText
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editStartPassword"
+                android:background="#FFFFFF"
+                android:textColor="#000000" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="381.5dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+            <TextView
+                android:text="Felaktigt användarnamn eller lösenord"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="325.5dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewWrongUserAndPassword"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:visibility="invisible"
+                android:layout_marginLeft="30dp"
+                android:textSize="14dp"
+                android:textColor="#7F0000"
+                android:gravity="center_horizontal" />
+        </LinearLayout>
+        <Button
+            android:text="Login"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonStartLogin"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:background="#007BFF"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="26.0dp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:text="Registrera konto"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textViewStartRegAccount"
+                android:gravity="center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="20dp"
+                android:textColor="#007BFF"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:linksClickable="true" />
+            <TextView
+                android:text="Glömt lösenord"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/textViewStartForgotPassword"
+                android:textColor="#007BFF"
+                android:typeface="serif"
+                android:textStyle="bold"
+                android:linksClickable="true" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

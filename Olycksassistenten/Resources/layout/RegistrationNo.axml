@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TextView
+            android:text="OLYCKSASSISTENTEN"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:typeface="serif" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="22.0dp"
+            android:id="@+id/linearLayout1"
+            android:gravity="left"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+            <TextView
+                android:text="Uppgifter fordorn 1 :"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="195.0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/linearLayout2"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/my_border"
+            android:layout_marginBottom="10dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="187.5dp"
+                android:id="@+id/linearLayout3"
+                android:background="#50FFFFFF">
+                <TextView
+                    android:text="Registreringsnr förare 1 :"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="200.0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:gravity="center_horizontal"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="25dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:id="@+id/linearLayout4"
+                    android:background="@drawable/my_border2"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="18.5dp"
+                        android:id="@+id/editRegNo1"
+                        android:background="#30000000"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <TextView
+                    android:text="Modell :"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="122.0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView6"
+                    android:gravity="center_horizontal"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:id="@+id/linearLayout11"
+                    android:background="@drawable/my_border2"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="19.0dp"
+                        android:id="@+id/editRegModel1"
+                        android:background="#30000000"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <TextView
+                    android:text="Årsmodell :"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="146.5dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView7"
+                    android:gravity="center_horizontal"
+                    android:typeface="serif"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:id="@+id/linearLayout11"
+                    android:background="@drawable/my_border2"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp">
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/editRegYear1"
+                        android:background="#50000000" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="290.0dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/linearLayout9"
+                    android:layout_gravity="center_horizontal">
+                    <TextView
+                        android:text="Ange registreringsnr"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textViewFelAngeReg"
+                        android:gravity="center_horizontal"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textStyle="bold"
+                        android:visibility="invisible" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:id="@+id/linearLayout5"
+            android:gravity="left"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+            <TextView
+                android:text="Uppgifter fordorn 2 :"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="191.0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:typeface="serif" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/linearLayout6"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/my_border">
+            <LinearLayout
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="187.5dp"
+                android:id="@+id/linearLayout7"
+                android:background="#50FFFFFF">
+                <TextView
+                    android:text="Registreringsnr förare 2 :"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="192.5dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3"
+                    android:gravity="center_horizontal"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:layout_marginLeft="25dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="32.0dp"
+                    android:id="@+id/linearLayout8"
+                    android:background="@drawable/my_border2"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="20.0dp"
+                        android:id="@+id/editRegNo2"
+                        android:background="#30000000"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <TextView
+                    android:text="Modell :"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="69.0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView8"
+                    android:gravity="center_horizontal"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:layout_marginLeft="25dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="32.0dp"
+                    android:id="@+id/linearLayout13"
+                    android:background="@drawable/my_border2"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp">
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="19.0dp"
+                        android:id="@+id/editRegModel2"
+                        android:background="#30000000"
+                        android:textColor="#000000" />
+                </LinearLayout>
+                <TextView
+                    android:text="Årsmodell :"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="94.0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView9"
+                    android:gravity="center_horizontal"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:layout_marginLeft="25dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="32.0dp"
+                    android:id="@+id/linearLayout14"
+                    android:background="@drawable/my_border2"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp">
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/editRegYear2"
+                        android:background="#50000000" />
+                </LinearLayout>
+                <TextView
+                    android:text="Ange registreringsnr"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewFelAngeReg2"
+                    android:gravity="center_horizontal"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textStyle="bold"
+                    android:visibility="invisible" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="290dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/linearLayout10"
+                    android:layout_gravity="center_horizontal" />
+            </LinearLayout>
+        </LinearLayout>
+        <Button
+            android:text="Ok"
+            android:layout_width="wrap_content"
+            android:layout_height="33.5dp"
+            android:id="@+id/buttonRegNoOk"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:background="#007BFF"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp" />
+    </LinearLayout>
+</ScrollView>

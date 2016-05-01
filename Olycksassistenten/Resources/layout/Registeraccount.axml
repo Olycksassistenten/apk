@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:background="@android:color/background_light">
+        <TextView
+            android:text="OLYCKSASSISTENTEN"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:gravity="center_horizontal"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="15dp"
+            android:typeface="serif" />
+        <TextView
+            android:text="Användarnamn :"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="309.5dp"
+            android:layout_height="20.0dp"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="40dp"
+            android:textColor="#000000"
+            android:layout_marginBottom="5dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:background="#20FFFFFF" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/linearLayout1"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/my_border2">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextRegUserName"
+                android:background="#30000000"
+                android:textColor="#000000" />
+        </LinearLayout>
+        <TextView
+            android:text="Lösenord :"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="309.5dp"
+            android:layout_height="21.0dp"
+            android:id="@+id/textView3"
+            android:layout_marginLeft="40dp"
+            android:textColor="#000000"
+            android:layout_marginBottom="5dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:background="#20FFFFFF" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/linearLayout2"
+            android:background="@drawable/my_border2"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+            <EditText
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextRegPassword"
+                android:background="#30000000"
+                android:textColor="#000000" />
+        </LinearLayout>
+        <TextView
+            android:text="Namn :"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="308.0dp"
+            android:layout_height="20.0dp"
+            android:id="@+id/textView4"
+            android:layout_marginLeft="40dp"
+            android:textColor="#000000"
+            android:layout_marginBottom="5dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:background="#20FFFFFF" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/linearLayout3"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/my_border2">
+            <EditText
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextRegName"
+                android:background="#30000000"
+                android:textColor="#000000" />
+        </LinearLayout>
+        <TextView
+            android:text="Personnr :"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="311.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_marginLeft="40dp"
+            android:textColor="#000000"
+            android:layout_marginBottom="5dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:background="#20FFFFFF" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/linearLayout4"
+            android:background="@drawable/my_border2"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+            <EditText
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextRegSSN"
+                android:background="#30000000"
+                android:textColor="#000000" />
+        </LinearLayout>
+        <TextView
+            android:text="Adress :"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="306.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_marginLeft="40dp"
+            android:textColor="#000000"
+            android:layout_marginBottom="5dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:background="#20FFFFFF" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/linearLayout5"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/my_border2">
+            <EditText
+                android:inputType="textPostalAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextRegAddress"
+                android:background="#30000000"
+                android:textColor="#000000" />
+        </LinearLayout>
+        <TextView
+            android:text="Telefon :"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="306.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:layout_marginLeft="40dp"
+            android:textColor="#000000"
+            android:layout_marginBottom="5dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:background="#20FFFFFF" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/linearLayout6"
+            android:layout_marginEnd="35dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/my_border2">
+            <EditText
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextRegPhone"
+                android:background="#30000000"
+                android:textColor="#000000" />
+        </LinearLayout>
+        <TextView
+            android:text="E-post :"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="304.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_marginLeft="40dp"
+            android:textColor="#000000"
+            android:layout_marginBottom="5dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:background="#20FFFFFF" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/linearLayout6"
+            android:layout_marginEnd="35dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/my_border2"
+            android:layout_marginBottom="5dp">
+            <EditText
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextRegMail"
+                android:background="#30000000"
+                android:textColor="#000000" />
+        </LinearLayout>
+        <Button
+            android:text="Skapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonRegCreate"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:background="#007BFF"
+            android:layout_gravity="left"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+</ScrollView>
